@@ -1,0 +1,16 @@
+.text_container{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+.u_input{
+    display:block;
+    padding-bottom:3rem;
+}
+.table{
+    display:block
+}
+th{
+    padding: 1rem;
+}

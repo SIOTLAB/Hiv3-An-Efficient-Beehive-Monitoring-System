@@ -1,0 +1,40 @@
+.container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.addCam{
+    display:block;
+    background-color: blue;
+    height:15vh;
+    width: 15vw;
+    border-radius: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.space-btwn{
+    display:block;
+    background-color: white;
+    height:15vh;
+    width: 15vw;
+    border-radius:2rem;
+}
+.remCam{
+    display:block;
+    background-color: red;
+    height:15vh;
+    width: 15vw;
+    border-radius:2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.button {
+    background-color:transparent;
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+
+}

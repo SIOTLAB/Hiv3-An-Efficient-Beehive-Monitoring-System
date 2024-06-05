@@ -1,0 +1,58 @@
+
+.signinposition {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+    background-color: #CC8F00;
+    width: 65vw;
+    border-right:solid silver 4px; 
+    align-items: center;
+    justify-content: center;
+}
+
+.rightside {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    justify-content: center;
+}
+
+.signinbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+    align-items: center;
+} 
+
+.headertext {
+    font-size:3vi;
+}
+
+.bodytext {
+    font-size: 1.5vi;
+}
+
+.logintext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.HiveLogo {
+    height: 40vh;
+}
+
+.bottomtext {
+    width:60vw;
+}
+
+.bodytext {
+    font-size: 1.5vi;
+}

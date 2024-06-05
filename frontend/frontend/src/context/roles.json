@@ -1,0 +1,36 @@
+{
+  "Roles": [
+    {
+      "Role": "Owner",
+      "members": [
+        {
+          "aemail": "identitypvp@gmail.com",
+          "userid": "RsywSpGOqDhZpIHwK4jb0GlmsMU2"
+        }
+      ],
+      "id": "150b"
+    },
+    {
+      "Role": "Admin",
+      "members": [
+        {
+          "aemail": "connormerhab@gmail.com",
+          "userid": "e6PJbozveZQVbgoWP3bcnoJZWEx1"
+        }
+      ],
+      "id": "34d3"
+    },
+    {
+      "Role": "Guest",
+      "members": [
+        {}
+      ],
+      "id": "e024"
+    },
+    {
+      "Role": "Banned",
+      "members": [],
+      "id": "9388"
+    }
+  ]
+}

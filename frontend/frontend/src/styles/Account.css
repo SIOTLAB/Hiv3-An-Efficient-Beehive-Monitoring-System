@@ -1,0 +1,30 @@
+.OrangeBox {
+    display: flex;
+    background-color: #CC8F00;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    height: 60vh;
+    border-radius: 25px;
+}
+.PositionBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+
+}
+
+.UserPhoto {
+    border: 5px silver;
+    border-style: solid;
+    border-radius: 20%;
+}
+
+.UserDetails {
+    font-size: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

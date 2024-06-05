@@ -1,0 +1,87 @@
+
+.center{
+    align-items: center;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.firstCol{
+    display:block;
+    background-color: #CC8F00;
+    height:88vh;
+    width: 15vw;
+}
+.secondCol{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    height:88vh;
+    width: 20vw;
+}
+.thirdCol{
+    display:flex;
+    height:88vh;
+    width: 20vw;
+}
+.fourthCol{
+    display:flex;
+    height:88vh;
+    width: 20vw;
+}
+.fifthCol{
+    display:flex;
+    height:88vh;
+    width: 20vw;
+}
+
+.firstCol .camera-info{
+    background-color: silver;
+    height:auto;    /*Increase or decreases dependent on whats inside it*/
+    border-style: solid;
+    border-left: black;
+    font-size: 1.75vh;
+    border-right:black;
+    border-top:black;
+}
+
+.firstCol .Manage_Camera{
+    height:40px;
+    border-style: solid;
+    border-left: black;
+    border-right:black;
+    border-top:black;
+    text-align: center;
+    padding-top:1vh;
+}
+
+.firstCol .Sidebar_Button {
+    font-size: 1.75vh;
+    background: transparent;
+    border: none; 
+    height: 4vh;
+    width: 16vh;
+
+}
+
+.firstCol .Live_View{
+    height:4vh;
+    border-style: solid;
+    border-left: black;
+    border-right:black;
+    border-top:black;
+    text-align: center;
+    padding-top:1vh;
+}
+.firstCol .View_Data{
+    height:4vh;
+    border-style: solid;
+    border-left: black;
+    border-right:black;
+    border-top:black;
+    text-align: center;
+    padding-top:1vh;
+}
+

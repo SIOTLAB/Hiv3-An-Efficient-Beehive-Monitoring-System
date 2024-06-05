@@ -1,0 +1,29 @@
+
+
+.left-box{
+    display:block;
+    width: 15vw;
+    height:85vh;
+}
+.items{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.past-contain{
+    display:block;
+    width: 20vw;
+    height:40vh;
+    line-height: 0.1vh;
+}
+.count-contain{
+    display:block;
+    position:relative;
+    width: 20vw;
+    height:40vh;
+}
+.image-container{
+    width:40vw;
+    height:70vh;
+    display: block;
+}
