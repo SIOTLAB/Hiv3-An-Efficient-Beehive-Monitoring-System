@@ -38,23 +38,23 @@ Optional: Modify myconfig.h to add additional networks and adjust camera setting
 5. In order to use the Watchdog scripts found on the Raspberry Pi, follow these steps:
 - Locate the proper directory by typing the following command into a terminal: cd /SDScripts
 - Enter the python virtual environment by entering the command: source /home/<user_name>/python_env/bin/activate
-- Enter the command: python sender_watchdog.py, in order to manually run the script.
+- Enter the command: python sender_watchdog.py, in order to manually run the script
 6. In order to modify the cron log, follow these instructions:
-- Open a terminal and enter the command: sudo root, to become a root user. 
+- Open a terminal and enter the command: sudo root, to become a root user
 - Enter the command: crontab -e
-- The command will prompt a new terminal where you can edit any cron jobs. At the time of this ReadMe, we only have one cron job that runs the watchdog script at boot. 
+- The command will prompt a new terminal where you can edit any cron jobs. At the time of this ReadMe, we only have one cron job that runs the watchdog script at boot
 
 
 
 ## Heroku 
-1. Sign into [Heroku](www.heroku.com) using your user account information.
-2. Select the hiv3-app, once you’ve selected the hiv3-app, you will be directed to the Heroku portal.
-3. To deploy a new build, follow these next steps. 
+1. Sign into [Heroku](www.heroku.com) using your user account information
+2. Select the hiv3-app, once you’ve selected the hiv3-app, you will be directed to the Heroku portal
+3. To deploy a new build, follow these next steps:
 - Select the “deploy” tab.
 - Make sure your deployment method is: Github
-- Scroll down to “Manual Deploy”, and select the branch you wish to deploy. 
+- Scroll down to “Manual Deploy”, and select the branch you wish to deploy
 - Click “Deploy Branch”
-4. To add new users to the heroku app, follow these steps. 
+4. To add new users to the heroku app, follow these steps:
 - Select the “activity” tab 
 - Select “Add Collaborator”
 - Input user’s email address
@@ -68,45 +68,45 @@ Optional: Modify myconfig.h to add additional networks and adjust camera setting
 - Click “Add”
 
 ## MongoDB
-1. Sign into [MongoDB](www.mongodb.com) using your user account information.
-2. You will be directed to the Atlas Portal. Click “Browse Collections” to view all data sets. 
-3. To create a new collection, follow these next steps.
-- Hover your mouse over an existing database: “HIV3_DB”. 
+1. Sign into [MongoDB](www.mongodb.com) using your user account information
+2. You will be directed to the Atlas Portal. Click “Browse Collections” to view all data sets
+3. To create a new collection, follow these next steps:
+- Hover your mouse over an existing database: “HIV3_DB”
 - Click the “+” icon
-- Input name and type of collection you wish to add. 
+- Input name and type of collection you wish to add
 - Click “Create”
-4. To remove a new collection, follow these steps.
-- Hover your mouse over an existing collection.
+4. To remove a new collection, follow these steps:
+- Hover your mouse over an existing collection
 - Click the trash icon
 - Enter the name of the collection
 - Click “Drop”
-5. To add a user to the database, follow these steps.
-- Look for an icon depicting a user with a + sign at the top right of the page.
+5. To add a user to the database, follow these steps:
+- Look for an icon depicting a user with a + sign at the top right of the page
 - Select the icon
 - Enter the email address of the user
 - Click “Invite to Project”
 
 ## Web Application
 1. Make sure to have the github repository saved locally. We used Visual Studio Code for the web application.
-2. To access the web application locally, follow these steps.
+2. To access the web application locally, follow these steps:
 - Access the backend folder: cd /backend
-- Run command: npm install. In order to get the needed packages. 
-- Run command: npm start.
+- Run command: npm install. In order to get the needed packages
+- Run command: npm start
 - Switch to the frontend directory: cd /frontend
-- Run command: npm install. In order to get the needed packages.
+- Run command: npm install. In order to get the needed packages
 - Run command npm start.
 3. To upload the code to Heroku, follow these steps.
-- In your local save of the github repository, delete the current build folder.
-- Switch to the frontend directory: cd /frontend.
-- Run the command: npm run build.
-- Once the build is finished compiling, move the build folder from the frontend directory to the directory preceding the frontend directory. 
-- The build folder should be on the same level as both the backend and frontend folder. 
-- Go to the Heroku section to understand how to deploy a new build. 
+- In your local save of the github repository, delete the current build folder
+- Switch to the frontend directory: cd /frontend
+- Run the command: npm run build
+- Once the build is finished compiling, move the build folder from the frontend directory to the directory preceding the frontend directory
+- The build folder should be on the same level as both the backend and frontend folder
+- Go to the Heroku section to understand how to deploy a new build
 
 ## Machine Learning
-1. To work on the machine learning portion, make sure that you download the dataset and use that to test and train your model. Unzip the ultralytics package and install it to your libraries. 
-2. In order to train and test the model, use the TrainingModel.ipynb to train the model and to test it on test images and videos. 
-3. To change the backbone or the loss function, edit the Ultralytics library.
+1. To work on the machine learning portion, make sure that you download the dataset and use that to test and train your model. Unzip the ultralytics package and install it to your libraries
+2. In order to train and test the model, use the TrainingModel.ipynb to train the model and to test it on test images and videos
+3. To change the backbone or the loss function, edit the Ultralytics library
 4. If you have questions about YOLOv8, plesae refer to their [documentation](https://docs.ultralytics.com) 
 
 ## Cloning Project from GitHub
