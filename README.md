@@ -3,10 +3,10 @@ There is a wide array of solutions to assist in a beehive’s overall health; ho
 This project utilizes an ESP32 camera module, Raspberry Pi, and a React web application each using C++, Python, and JavaScript respectively. See slides for more detail.
 ## Navigation
 To navigate to source code:
-```/frontend``` to view the code for the user interface
-```/backend```  to view the database connection 
-```/mlcode``` to view the machine learning model
-```/ESP-32-camera-webserver``` to view the code to initialize the OTA camera web server. 
+-```/frontend``` to view the code for the user interface
+-```/backend```  to view the database connection 
+-```/mlcode``` to view the machine learning model
+-```/ESP-32-camera-webserver``` to view the code to initialize the OTA camera web server. 
 For ESP-32-camera-webserver directory, navigate to the .ino file to initialize the server.
 ## How-To Guide
 ESP-32-camera-webserver is an adapted version of user easytarget’s [ESP-32-camera-webserver](https://github.com/easytarget/esp32-cam-webserver) and extends the same rights that it does. For OTA capabilities, user wjsanek’s [Working_ESP32_CAM_BEST_DOES_EVERYTHING_V10]( https://github.com/wjsanek/wjsanek) was adapted.
